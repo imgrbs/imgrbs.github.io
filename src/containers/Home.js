@@ -29,7 +29,7 @@ const Hero = styled.div`
 `
 
 
-export default class Landing extends Component {
+export default class Home extends Component {
     render() {
         return (
             <Hero className="container-fluid d-flex justify-content-center align-items-center">
