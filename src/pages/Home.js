@@ -32,6 +32,7 @@ const Hero = styled(FlexCenter)`
     }
     h3 {
         font-weight: 100;
+        margin-top: 0;
     }
 `
 
@@ -54,7 +55,7 @@ export default class Home extends Component {
                     <div className="col-10">
                         <h1>Hello, My name is <b>"Tae"</b></h1>
                         <h3>A "Web Developer" that love to make "Business Value" with "Good Quality" and "Good Practice".</h3>
-                        <ContactList contacts={contacts} />
+                        {/* <ContactList contacts={contacts} /> */}
                     </div>
                 </div>
             </Hero>
